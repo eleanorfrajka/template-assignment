@@ -20,16 +20,19 @@ This assignment provides a framework for analyzing Atlantic Meridional Overturni
 amoc-analysis/
 ├── notebooks/                  # Jupyter notebooks for analysis
 ├── amoc_analysis/             # Main Python package
-│   ├── tools.py               # Unit conversion tools  
-│   ├── readers.py             # Data loading functions
-│   ├── plotters.py            # Visualization functions
-│   ├── utilities.py           # Helper functions
-│   └── read_rapid.py          # RAPID-specific data reader
+│   ├── data.py                # Data loading functions
+│   ├── analysis.py            # Analysis tools and utilities
+│   └── plotting.py            # Visualization functions
 ├── tests/                     # Test suite
+│   ├── test_data.py           # Tests for data loading
+│   ├── test_analysis.py       # Tests for analysis functions
+│   └── test_plotting.py       # Tests for plotting functions
 ├── data/                      # Data files (downloaded automatically)
 ├── pyproject.toml             # Package configuration
 ├── requirements.txt           # Core dependencies
-└── requirements-dev.txt       # Development dependencies
+├── requirements-dev.txt       # Development dependencies
+├── GETTING_STARTED.md         # Step-by-step guide for beginners
+└── INSTRUCTIONS.md            # Detailed project structure explanation
 ```
 
 ## Assignment Goals
@@ -43,6 +46,8 @@ amoc-analysis/
 ---
 
 ## 🔧 Getting Started
+
+> 💡 **New to Python projects?** Check out [GETTING_STARTED.md](GETTING_STARTED.md) for a beginner-friendly progression from simple to advanced.
 
 1. **Install the package in development mode:**
 
