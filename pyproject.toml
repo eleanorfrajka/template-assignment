@@ -4,6 +4,7 @@ requires = ["setuptools>=68", "wheel"]
 
 [project]
 name = "amoc-analysis"
+version = "0.1.0"
 description = "Student assignment: data analysis for physical oceanography - AMOC transport analysis"
 readme = "README.md"
 license = { file = "LICENSE" }
