@@ -53,7 +53,6 @@ amoc-analysis/
 
 ```bash
 # Clone the repository (or download from your course platform)
-cd amoc-analysis
 
 # Install dependencies and the package
 pip install -e ".[dev]"
